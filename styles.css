@@ -1,31 +1,51 @@
-.head{
-    text-decoration:underline;
-}
-.image{
-    height: 300px;
-    width: 400px;
-}
-.para{
-   
-    border: 2px solid black;
-    padding: 15px;
-    background-color: beige;
-   
-}
-.font{
+.body {
     font-family:Arial, Helvetica, sans-serif;
     line-height: 1.6;
+   
 }
-.body{
-    background-color: antiquewhite;
-}
-#head1{
-    color: rgb(255, 166, 0);
+
+.top-section
+       {
+            margin:38px;
+            border: 1px solid black; 
+            padding:15px;              
+            width:38cm;         
+        }
+
+
+.top-section, .image-section, .trivia-section
+ {
+    margin: 15px;
+    background: #fff;
+    padding:15px;
     
+ }
+
+
+.read-more-link, .more-images-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: #00f;
+    text-decoration: none;
 }
-#head2{
-    color: rgb(6, 144, 250);
+
+.read-more-link:hover, .more-images-link:hover {
+    text-decoration: underline;
 }
-#head3{
-    color: rgb(118, 148, 19);
+
+.image-section img {
+    width:400px;
+    height:400px;
+    display: block;
+    margin: 10px;
+    padding-left:0px;
+}
+
+ol {
+    padding-left:15px;
+    margin-bottom:10px;
+}
+
+ol li {
+    margin-bottom: 3px;
 }
